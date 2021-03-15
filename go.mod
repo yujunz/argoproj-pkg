@@ -1,4 +1,4 @@
-module github.com/argoproj/pkg
+module github.com/yujunz/argoproj-pkg
 
 go 1.14
 
@@ -46,3 +46,5 @@ replace (
 	k8s.io/metrics => k8s.io/metrics v0.17.8
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.17.8
 )
+
+replace github.com/argoproj/pkg => ./
